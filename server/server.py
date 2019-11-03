@@ -15,7 +15,7 @@ class ClimateEffect(Enum):
     VIRUS = "virus"
     NOTHING = "nothing"
 
-class Dry(Enum):
+class DryEffect(Enum):
     DRYER = "dryer"
     DRY = "dry"
     NORMAL = "normal"
@@ -24,14 +24,14 @@ class Dry(Enum):
 temperature = 20.0
 humidity = 50.0
 climate_effect = ClimateEffect.NOTHING
-dry = Dry.NORMAL
+dry_effect = DryEffect.NORMAL
 
 class HealthEffect:
     def __init__(self):
         self.temperature = temperature
         self.humidity = humidity
         self.climate_effect = climate_effect.name
-        self.dry = dry.name
+        self.dry_effect = dry_effect.name
 
     def jsonize(self) -> str:
         return json.dumps(self.__dict__) 
