@@ -1,3 +1,4 @@
+from enum import Enum
 from flask import Flask
 import json
 import serial
@@ -9,16 +10,31 @@ ser = serial.Serial(serial_port, 9600, timeout=None)
 
 app = Flask(__name__)
 
+class ClimateEffect(Enum):
+    HEATSTROKE = "heatstroke"
+    VIRUS = "virus"
+    NOTHING = "nothing"
+
+class Dry(Enum):
+    DRYER = "dryer"
+    DRY = "dry"
+    NORMAL = "normal"
+
+# TODO: should be in class as repository
 temperature = 20.0
 humidity = 50.0
+climate_effect = ClimateEffect.NOTHING
+dry = Dry.NORMAL
 
 class HealthEffect:
     def __init__(self):
         self.temperature = temperature
         self.humidity = humidity
+        self.climate_effect = climate_effect.name
+        self.dry = dry.name
 
     def jsonize(self) -> str:
-        return json.dumps(self.__dict__)
+        return json.dumps(self.__dict__) 
 
 @app.route('/')
 def index() -> str:
