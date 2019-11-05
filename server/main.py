@@ -1,5 +1,6 @@
-from enum import Enum
-from flask import Flask
+from datetime import datetime
+from enum     import Enum
+from flask    import Flask
 import json
 import serial
 import sys
@@ -11,18 +12,15 @@ ser = serial.Serial(serial_port, 9600, timeout=None)
 app = Flask(__name__)
 
 class ClimateEffect(Enum):
-    HEATSTROKE = 0
-    VIRUS = 1
-    NOTHING = 2
+    HEATSTROKE_NOTICE = 0
+    HEATSTROKE_ALERT = 1
+    VIRUS_NOTICE = 2
+    VIRUS_ALERT = 3
+    NOTHING = 4
 
 class DryEffect(Enum):
-    DRYER = 0
-    DRY = 1
-    NORMAL = 2
-
-# TODO: should be in class as repository
-temperature = 20.0
-humidity = 50.0
+    DRY = 0
+    NOTHING = 1
 
 """
 A data object to represents effects of health as json.
@@ -41,14 +39,45 @@ class HealthEffectData:
     def jsonize(self) -> str:
         return json.dumps(self.__dict__)
 
+# TODO: should be in class as repository
+temperature = 20.0
+humidity = 50.0
+
 class HealthEffect:
     def __init__(self) -> None:
         self.temperature = temperature
         self.humidity = humidity
         self.climate_effect = ClimateEffect.NOTHING
-        self.dry_effect = DryEffect.NORMAL
+        self.dry_effect = DryEffect.NOTHING
+
+        print(f"now temperature: {temperature}")
+        print(f"now humidity: {humidity}")
+
+        # TODO: refactor
+        now = datetime.now()
+        if now.month in range(5, 10 + 1):
+            # in summer
+            if temperature >= 29.0:
+                self.climate_effect = ClimateEffect.HEATSTROKE_ALERT
+            elif temperature >= 26.0:
+                self.climate_effect = ClimateEffect.HEATSTROKE_NOTICE
+            
+            if humidity <= 40.0:
+                self.dry_effect = DryEffect.DRY
+        else:
+            # in winter
+            in_cold = temperature <= 18.0
+            in_dry = humidity <= 40.0
+            
+            if in_cold and in_dry:
+                self.climate_effect = ClimateEffect.VIRUS_ALERT
+            elif in_cold or in_dry:
+                self.climate_effect = ClimateEffect.VIRUS_NOTICE
 
 def fetch_from_serial() -> None:
+    global temperature
+    global humidity
+
     while True:
         line = ser.readline().decode("utf-8").rstrip()
         try:
