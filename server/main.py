@@ -26,14 +26,14 @@ class DryEffect(Enum):
 A data object to represents effects of health as json.
 """
 class HealthEffectData:
-    def __init__(self, temperature, humidity, climate_effect, dry_effect) -> None:
+    def __init__(self, temperature: float, humidity: float, climate_effect: ClimateEffect, dry_effect: DryEffect) -> None:
         self.temperature = temperature
         self.humidity = humidity
         self.climate_effect = climate_effect.name
         self.dry_effect = dry_effect.name
 
     @staticmethod
-    def from_health_effect(health_effect): # -> HealthEffectData
+    def from_health_effect(health_effect: HealthEffect): # -> HealthEffectData
         return HealthEffectData(health_effect.temperature, health_effect.humidity, health_effect.climate_effect, health_effect.dry_effect)
 
     def jsonize(self) -> str:
