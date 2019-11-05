@@ -43,6 +43,7 @@ class HealthEffectData:
 temperature = 20.0
 humidity = 50.0
 
+# TODO: to function
 class HealthEffect:
     def __init__(self) -> None:
         self.temperature = temperature
@@ -75,6 +76,7 @@ class HealthEffect:
                 self.climate_effect = ClimateEffect.VIRUS_NOTICE
 
 def fetch_from_serial() -> None:
+    # TODO: annihilate global variables
     global temperature
     global humidity
 
