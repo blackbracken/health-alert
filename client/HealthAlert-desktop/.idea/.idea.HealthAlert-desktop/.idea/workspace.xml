@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a84dbdf6-7efd-48bf-885a-a7343215be45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HealthAlert-desktop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HealthAlert-desktop/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HealthAlert-desktop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HealthAlert-desktop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DateTextController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DateTextController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Clock.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Clock.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TimeTextController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TimeTextController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../desktop/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../desktop/build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../desktop/core/assets/badlogic.jpg" beforeDir="false" />
@@ -23,43 +31,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/TimeTextController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding>
-                <marker date="1572973694615" expanded="false" signature="6:54" ph="..." />
-                <marker date="1572973694615" expanded="true" signature="103:234" ph="{...}" />
-                <marker date="1572973694615" expanded="true" signature="156:227" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/DateTextController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <marker date="1572973571811" expanded="true" signature="6:54" ph="..." />
-                <marker date="1572973571811" expanded="true" signature="103:224" ph="{...}" />
-                <marker date="1572973571811" expanded="true" signature="151:222" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/DateTextController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TimeTextController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,12 +120,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572972727889</updated>
-      <workItem from="1572972744003" duration="946000" />
+      <workItem from="1572972744003" duration="2506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="946000" />
+    <option name="totallyTimeSpent" value="2506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -163,7 +138,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="176" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -211,27 +185,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/DateTextController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/TimeTextController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <marker date="1572973571811" expanded="true" signature="6:54" ph="..." />
-            <marker date="1572973571811" expanded="true" signature="103:224" ph="{...}" />
-            <marker date="1572973571811" expanded="true" signature="151:222" ph="{...}" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TimeTextController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/DateTextController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <marker date="1572973694615" expanded="false" signature="6:54" ph="..." />
-            <marker date="1572973694615" expanded="true" signature="103:234" ph="{...}" />
-            <marker date="1572973694615" expanded="true" signature="156:227" ph="{...}" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>

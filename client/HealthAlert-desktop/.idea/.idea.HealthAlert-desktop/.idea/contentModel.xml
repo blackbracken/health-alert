@@ -5,8 +5,10 @@
     <e p="C:\Users\Master\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_HealthAlert-desktop.11356661.00" t="ExcludeRecursive" />
     <e p="C:\Users\Master\Desktop\health-alert\client\HealthAlert-desktop" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets\DateTextController.cs" t="Include" />
-      <e p="Assets\TimeTextController.cs" t="Include" />
+      <e p="Assets\Scripts" t="Include">
+        <e p="DateTextController.cs" t="Include" />
+        <e p="TimeTextController.cs" t="Include" />
+      </e>
       <e p="HealthAlert-desktop.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
