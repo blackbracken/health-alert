@@ -8,6 +8,6 @@ public class DateTextController : MonoBehaviour
 
     void Update()
     {
-        clockText.text = DateTime.Now.ToShortDateString();
+        clockText.text = string.Format("{0:MM/dd yyyy}", DateTime.Now);
     }
 }

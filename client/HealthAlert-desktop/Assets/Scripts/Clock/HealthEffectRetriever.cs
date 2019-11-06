@@ -44,8 +44,8 @@ public class HealthEffectRetriever : MonoBehaviour
 
         var healthEffectData = JsonUtility.FromJson<HealthEffectData>(request.downloadHandler.text);
         
-        temperatureText.text = string.Format("{0}°C", healthEffectData.temperature);
-        humidityText.text = string.Format("{0}%", healthEffectData.humidity);
+        temperatureText.text = string.Format("{0:F1}°C", healthEffectData.temperature);
+        humidityText.text = string.Format("{0:F1}%", healthEffectData.humidity);
         
         switch (healthEffectData.climate_effect.ToUpper())
         {
