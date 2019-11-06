@@ -6,5 +6,6 @@
 ## run
 |Target|Language|Run|
 |:-:|:-:|:-:|
+|Arduino|C++|-|
 |Server|Python3|`python ./server/main.py <serial_port>`|
 |Client for desktop|C# for Unity|-|
