@@ -7,4 +7,4 @@
 |Target|Language|Run|
 |:-:|:-:|:-:|
 |Server|Python3|`python ./server/main.py <serial_port>`|
-|Client for desktop|C#|-|
+|Client for desktop|C# for Unity|-|
