@@ -33,7 +33,7 @@ class HealthEffectData:
         self.dry_effect = dry_effect.name
 
     @staticmethod
-    def from_health_effect(health_effect: HealthEffect): # -> HealthEffectData
+    def from_health_effect(health_effect): # HealthEffect -> HealthEffectData
         return HealthEffectData(health_effect.temperature, health_effect.humidity, health_effect.climate_effect, health_effect.dry_effect)
 
     def jsonize(self) -> str:
