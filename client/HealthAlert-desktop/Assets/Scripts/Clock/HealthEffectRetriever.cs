@@ -37,8 +37,9 @@ public class HealthEffectRetriever : MonoBehaviour
 
     private IEnumerator FetchHealthEffect()
     {
-        var request = UnityWebRequest.Get("http://192.168.100.102:5000");
+        var request = UnityWebRequest.Get("http://" + AddressHolder.Address);
         yield return request.Send();
+        Debug.Log(request.downloadHandler.text);
 
         var healthEffectData = JsonUtility.FromJson<HealthEffectData>(request.downloadHandler.text);
         
