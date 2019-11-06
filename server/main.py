@@ -25,16 +25,12 @@ class DryEffect(Enum):
 """
 A data object to represents effects of health as json.
 """
-class HealthEffectData:
+class HealthEffect:
     def __init__(self, temperature: float, humidity: float, climate_effect: ClimateEffect, dry_effect: DryEffect) -> None:
         self.temperature = temperature
         self.humidity = humidity
         self.climate_effect = climate_effect.name
         self.dry_effect = dry_effect.name
-
-    @staticmethod
-    def from_health_effect(health_effect): # HealthEffect -> HealthEffectData
-        return HealthEffectData(health_effect.temperature, health_effect.humidity, health_effect.climate_effect, health_effect.dry_effect)
 
     def jsonize(self) -> str:
         return json.dumps(self.__dict__)
@@ -43,37 +39,35 @@ class HealthEffectData:
 temperature = 20.0
 humidity = 50.0
 
-# TODO: to function
-class HealthEffect:
-    def __init__(self) -> None:
-        self.temperature = temperature
-        self.humidity = humidity
-        self.climate_effect = ClimateEffect.NOTHING
-        self.dry_effect = DryEffect.NOTHING
+def create_health_effect() -> HealthEffect:
+    climate_effect = ClimateEffect.NOTHING
+    dry_effect = DryEffect.NOTHING
 
-        print(f"now temperature: {temperature}")
-        print(f"now humidity: {humidity}")
+    print(f"now temperature: {temperature}")
+    print(f"now humidity: {humidity}")
 
-        # TODO: refactor
-        now = datetime.now()
-        if now.month in range(5, 10 + 1):
-            # in summer
-            if temperature >= 29.0:
-                self.climate_effect = ClimateEffect.HEATSTROKE_ALERT
-            elif temperature >= 26.0:
-                self.climate_effect = ClimateEffect.HEATSTROKE_NOTICE
-            
-            if humidity <= 40.0:
-                self.dry_effect = DryEffect.DRY
-        else:
-            # in winter
-            in_cold = temperature <= 18.0
-            in_dry = humidity <= 40.0
-            
-            if in_cold and in_dry:
-                self.climate_effect = ClimateEffect.VIRUS_ALERT
-            elif in_cold or in_dry:
-                self.climate_effect = ClimateEffect.VIRUS_NOTICE
+    # TODO: refactor
+    now = datetime.now()
+    if now.month in range(5, 10 + 1):
+        # in summer
+        if temperature >= 29.0:
+            climate_effect = ClimateEffect.HEATSTROKE_ALERT
+        elif temperature >= 26.0:
+            climate_effect = ClimateEffect.HEATSTROKE_NOTICE
+
+        if humidity <= 40.0:
+            self.dry_effect = DryEffect.DRY
+    else:
+        # in winter
+        in_cold = temperature <= 18.0
+        in_dry = humidity <= 40.0
+        
+        if in_cold and in_dry:
+            climate_effect = ClimateEffect.VIRUS_ALERT
+        elif in_cold or in_dry:
+            climate_effect = ClimateEffect.VIRUS_NOTICE
+
+    return HealthEffect(temperature, humidity, climate_effect, dry_effect)
 
 # TODO: annihilate global variables
 def fetch_from_serial() -> None:
@@ -95,7 +89,7 @@ def fetch_from_serial() -> None:
 
 @app.route('/')
 def index() -> str:
-    return HealthEffectData.from_health_effect(HealthEffect()).jsonize()
+    return create_health_effect().jsonize()
 
 def main() -> None:
     threading.Thread(target=fetch_from_serial).start()
