@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a84dbdf6-7efd-48bf-885a-a7343215be45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Clock/DateTextController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Clock/DateTextController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Clock/HealthEffectRetriever.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Clock/HealthEffectRetriever.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Clock.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Clock.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Clock/HealthEffectRetriever.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="192">
+              <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding>
                 <marker date="1573070414882" expanded="false" signature="6:96" ph="..." />
                 <marker date="1573070414882" expanded="true" signature="148:2437" ph="{...}" />
@@ -210,12 +209,12 @@
       <workItem from="1572972744003" duration="15796000" />
       <workItem from="1573038933924" duration="2828000" />
       <workItem from="1573053428149" duration="269000" />
-      <workItem from="1573069510375" duration="1158000" />
+      <workItem from="1573069510375" duration="1646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20051000" />
+    <option name="totallyTimeSpent" value="20539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,7 +227,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="176" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -337,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Clock/HealthEffectRetriever.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="192">
+          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
           <folding>
             <marker date="1573070414882" expanded="false" signature="6:96" ph="..." />
             <marker date="1573070414882" expanded="true" signature="148:2437" ph="{...}" />
