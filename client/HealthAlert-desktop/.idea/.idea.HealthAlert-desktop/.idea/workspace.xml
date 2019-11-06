@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a84dbdf6-7efd-48bf-885a-a7343215be45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HealthEffectData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HealthEffectData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HealthAlert-desktop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HealthAlert-desktop/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HealthAlert-desktop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HealthAlert-desktop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DateTextController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DateTextController.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Clock.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Clock.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TimeTextController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TimeTextController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/core/assets/badlogic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/core/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/core/src/black/bracken/healthalertdesktop/HealthAlertDesktop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/desktop/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/desktop/src/black/bracken/healthalertdesktop/desktop/DesktopLauncher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../desktop/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +16,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DateTextController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <marker date="1572973571811" expanded="false" signature="6:54" ph="..." />
+                <marker date="1572973571811" expanded="true" signature="103:224" ph="{...}" />
+                <marker date="1572973571811" expanded="true" signature="151:222" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthEffectRetriever.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <marker date="1573034564298" expanded="true" signature="6:96" ph="..." />
+                <marker date="1573034564298" expanded="true" signature="148:2043" ph="{...}" />
+                <marker date="1573034564298" expanded="true" signature="375:446" ph="{...}" />
+                <marker date="1573034564298" expanded="true" signature="476:542" ph="{...}" />
+                <marker date="1573034564298" expanded="true" signature="569:761" ph="{...}" />
+                <marker date="1573034564298" expanded="true" signature="656:755" ph="{...}" />
+                <marker date="1573034564298" expanded="true" signature="806:2041" ph="{...}" />
+                <marker date="1573034564298" expanded="true" signature="1255:1790" ph="{...}" />
+                <marker date="1573034564298" expanded="true" signature="1836:2035" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimeTextController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding>
+                <marker date="1572973694615" expanded="false" signature="6:54" ph="..." />
+                <marker date="1572973694615" expanded="true" signature="103:234" ph="{...}" />
+                <marker date="1572973694615" expanded="true" signature="156:227" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DateTextController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeTextController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthEffectRetriever.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthEffectData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -42,16 +82,25 @@
         <option value="$PROJECT_DIR$/Assets/TimerTextController.cs" />
         <option value="$PROJECT_DIR$/Assets/DateTextController.cs" />
         <option value="$PROJECT_DIR$/Assets/TimeTextController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DateTextController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthEffectData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ClimateEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DryEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthEffectRetriever.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="2364" />
     <option name="y" value="176" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1394" />
+    <option name="height" value="810" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -67,6 +116,32 @@
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Material" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scenes" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
           <select />
@@ -120,12 +195,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572972727889</updated>
-      <workItem from="1572972744003" duration="2506000" />
+      <workItem from="1572972744003" duration="14676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2506000" />
+    <option name="totallyTimeSpent" value="14676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -138,6 +213,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="176" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -196,6 +272,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DateTextController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1572973571811" expanded="false" signature="6:54" ph="..." />
+            <marker date="1572973571811" expanded="true" signature="103:224" ph="{...}" />
+            <marker date="1572973571811" expanded="true" signature="151:222" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimeTextController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1572973694615" expanded="false" signature="6:54" ph="..." />
+            <marker date="1572973694615" expanded="true" signature="103:234" ph="{...}" />
+            <marker date="1572973694615" expanded="true" signature="156:227" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthEffectData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1573030194991" expanded="true" signature="59:184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DryEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthEffectRetriever.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1573034564298" expanded="true" signature="6:96" ph="..." />
+            <marker date="1573034564298" expanded="true" signature="148:2043" ph="{...}" />
+            <marker date="1573034564298" expanded="true" signature="375:446" ph="{...}" />
+            <marker date="1573034564298" expanded="true" signature="476:542" ph="{...}" />
+            <marker date="1573034564298" expanded="true" signature="569:761" ph="{...}" />
+            <marker date="1573034564298" expanded="true" signature="656:755" ph="{...}" />
+            <marker date="1573034564298" expanded="true" signature="806:2041" ph="{...}" />
+            <marker date="1573034564298" expanded="true" signature="1255:1790" ph="{...}" />
+            <marker date="1573034564298" expanded="true" signature="1836:2035" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
