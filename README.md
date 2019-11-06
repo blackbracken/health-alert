@@ -4,4 +4,7 @@
 * `pip install -r ./server/requirements.txt`
 
 ## run
-* server: `python ./server/main.py <serial_port>`
+|Target|Language|Run|
+|:-:|:-:|:-:|
+|Server|Python3|`python ./server/main.py <serial_port>`|
+|Client for desktop|C#|-|

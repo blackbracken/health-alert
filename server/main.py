@@ -75,18 +75,17 @@ class HealthEffect:
             elif in_cold or in_dry:
                 self.climate_effect = ClimateEffect.VIRUS_NOTICE
 
+# TODO: annihilate global variables
 def fetch_from_serial() -> None:
-    # TODO: annihilate global variables
-    global temperature
-    global humidity
-
     while True:
         line = ser.readline().decode("utf-8").rstrip()
         try:
             if line.startswith("t"):
+                global temperature
                 temperature = float(line[1:])
                 print(f"Changed a temperature: {temperature}")
             elif line.startswith("h"):
+                global humidity
                 humidity = float(line[1:])
                 print(f"Changed a humidity: {humidity}")
             else:
