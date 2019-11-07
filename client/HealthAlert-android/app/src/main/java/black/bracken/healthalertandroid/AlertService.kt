@@ -22,8 +22,6 @@ class AlertService : Service() {
     }
 
     private fun update() {
-        
-
         Handler().postDelayed({
             update()
         }, 10 * 1000L)
