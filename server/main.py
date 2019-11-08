@@ -56,7 +56,7 @@ def create_health_effect() -> HealthEffect:
             climate_effect = ClimateEffect.HEATSTROKE_NOTICE
 
         if humidity <= 40.0:
-            self.dry_effect = DryEffect.DRY
+            dry_effect = DryEffect.DRY
     else:
         # in winter
         in_cold = temperature <= 18.0
