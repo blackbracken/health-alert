@@ -40,6 +40,9 @@ temperature = 20.0
 humidity = 50.0
 
 def create_health_effect() -> HealthEffect:
+    global temperature
+    global humidity
+
     climate_effect = ClimateEffect.NOTHING
     dry_effect = DryEffect.NOTHING
 
